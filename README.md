@@ -424,35 +424,6 @@ For debugging failures:
 
 ## 🛠️ Troubleshooting
 
-### Common Issues and Solutions
-
-#### Issue: Compilation Errors
-**Symptoms**: SystemVerilog compilation failures
-**Solutions**:
-- Verify simulator SystemVerilog support
-- Check file dependencies and compilation order
-- Ensure all packages are compiled first
-
-#### Issue: Simulation Hangs
-**Symptoms**: Simulation doesn't complete
-**Solutions**:
-- Check for infinite loops in testbench
-- Verify test completion signals
-- Review clock generation
-
-#### Issue: Coverage Not Collected
-**Symptoms**: Zero coverage reported
-**Solutions**:
-- Verify coverage sampling calls
-- Check covergroup instantiation
-- Ensure proper signal connections
-
-#### Issue: Random Failures
-**Symptoms**: Intermittent test failures
-**Solutions**:
-- Check for race conditions
-- Verify reset sequence timing
-- Review signal synchronization
 
 ### Debug Commands
 
